@@ -3,6 +3,11 @@ A task made to test a individuals skills in writing code for backend usage at Fu
 
 
 # Description
+This assignment is used as the base for a technical talk, so remember to consider the design and architecture around the implementation of the system and testing.
+
+A good idea is to timebox the assignment and write your thoughts down on stuff which have not been implemented or that you want to implement.
+
+# Assignment
 Write a program (API) which fulfills the following criterias:
 - C#/.NET Core API (using the MVC framework).
 - Use JSON for communication
