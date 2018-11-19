@@ -9,7 +9,7 @@ Write a program (API) which fulfills the following criterias:
 - Use a datastore (Relational or NOSQL). You can pick whatever datastore you want.
 - Project should contain a dockerfile and should be able to be built as a container for Linux.
 - Should have atleast 2 GET and 1 POST ([HttpGet] / [HttpPost]) methods.
-- Needs to use **D**ependency **I**njection (use .NET Core built-in DI) with interfaces.
+- Needs to use **D**ependency **I**njection (use .NET Core built-in **DI**) with interfaces.
 
 
 #### GET methods
