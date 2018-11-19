@@ -30,7 +30,7 @@ Last but not least; your solution should be added as a fork of this project, her
 
 #### Return value
 When returning data to the user, please make a model for APIResult.
-Example (which you can use if  you wish):
+Example (which you can use if you wish):
 ```C#
 public class APIResult
 {
@@ -47,6 +47,24 @@ You choose what you believe is appropriate.
 #### Data
 You can pick whatever data you want. It could be pizzas, pokemons, games, music - whatever you wish.
 
+The data should have more than simply an ID and Name field.
+
+Example with pizza:
+ID, Name, Ingredients, Vegan/Non-Vegan, Price
+
+Again, it your pick, just add what you believe is a appropriate for your selected data. We do not expect you to provide us with any data for the datastore, but the classes in the code should match the datastore.
+
+```C#
+public class Pizza
+{
+  public long Id { get; set; }
+  public string Name { get; set; }
+  public List<string> Ingredients { get; set; }
+  public bool IsVegan { get; set; }
+  public double Price { get; set; }
+}
+```
+You can use this if you wish, but we do expect you to add more to the model then (bonus points for not copying this). :-)
 
 #### Final remarks
 You can use docker for spinning up an database easily.
