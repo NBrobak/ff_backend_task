@@ -11,6 +11,8 @@ Write a program (API) which fulfills the following criterias:
 - Should have atleast 2 GET and 1 POST ([HttpGet] / [HttpPost]) methods.
 - Needs to use **D**ependency **I**njection (use .NET Core built-in **DI**) with interfaces.
 
+Last but not least; your solution should be added as a fork of this project, here on github. :-)
+
 
 #### GET methods
 1. No parameter: should return all values in datastore.
