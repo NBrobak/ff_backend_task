@@ -48,7 +48,10 @@ You choose what you believe is appropriate.
 You can pick whatever data you want. It could be pizzas, pokemons, games, music - whatever you wish.
 
 
-#### Extra
+#### Final remarks
+You can use docker for spinning up an database easily.
+
+#### Note
 This task might seem trivial, but please think carefully about how you structure you code, as this is what we will look at most.
 
 Also look up best practices, how to handle returning status codes in a MVC project. Also, remember to write comments for methods which does not easily tell the reader what is does.
