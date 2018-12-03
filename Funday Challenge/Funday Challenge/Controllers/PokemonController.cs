@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using FundayChallenge.Models;
+
+namespace FundayChallenge.Controllers
+{
+    [Route("api/[controller]")]
+    public class PokemonController : Controller
+    {
+        // GET api/values
+        [HttpGet]
+        public APIResult Get()
+        {
+            Pokemon[] pokemons = new Pokemon[] {
+                new Pokemon{ Id = 0, Name = "Growlithe", Evolution = 0, Types = new List<string>{ "Fire" }, IsLegendary = false},
+                new Pokemon{ Id = 0, Name = "Arcanine", Evolution = 1, Types = new List<string>{ "Fire" }, IsLegendary = false} };
+            APIResult result = new APIResult(pokemons);
+
+            return result;
+        }
+
+        // GET api/values/5
+        [HttpGet("{id}")]
+        public APIResult Get(int id)
+        {
+            Pokemon pokemon = new Pokemon { Id = 0, Name = "Growlithe", Evolution = 0, Types = new List<string> { "Fire" }, IsLegendary = false };
+            APIResult result = new APIResult(pokemon);
+
+            return result;
+        }
+
+        // POST api/values
+        [HttpPost]
+        public int Post([FromBody]Pokemon value)
+        {
+            return 0;
+        }
+    }
+}
