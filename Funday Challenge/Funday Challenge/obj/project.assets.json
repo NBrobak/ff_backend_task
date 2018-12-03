@@ -9663,9 +9663,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Code\\ff_backend_task\\Funday Challenge\\Funday Challenge\\Funday Challenge.csproj",
-      "projectName": "Funday Challenge",
-      "projectPath": "F:\\Code\\ff_backend_task\\Funday Challenge\\Funday Challenge\\Funday Challenge.csproj",
+      "projectUniqueName": "F:\\Code\\ff_backend_task\\Funday Challenge\\Funday Challenge\\FundayChallenge.csproj",
+      "projectName": "FundayChallenge",
+      "projectPath": "F:\\Code\\ff_backend_task\\Funday Challenge\\Funday Challenge\\FundayChallenge.csproj",
       "outputPath": "F:\\Code\\ff_backend_task\\Funday Challenge\\Funday Challenge\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [

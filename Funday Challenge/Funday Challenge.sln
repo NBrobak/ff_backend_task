@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funday Challenge", "Funday Challenge\Funday Challenge.csproj", "{49FF1999-BE9F-4FE4-942B-DBEC0AA9DCF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundayChallenge", "Funday Challenge\FundayChallenge.csproj", "{49FF1999-BE9F-4FE4-942B-DBEC0AA9DCF4}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5846A201-2FFE-44AA-853B-F96FAB53E16B}"
 EndProject
