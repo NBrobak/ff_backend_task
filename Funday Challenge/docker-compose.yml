@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  fundaychallenge:
+    image: fundaychallenge
+    build:
+      context: ./Funday Challenge
+      dockerfile: Dockerfile

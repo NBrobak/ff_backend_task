@@ -10,7 +10,6 @@ namespace FundayChallenge.Controllers
     [Route("api/[controller]")]
     public class PokemonController : Controller
     {
-        // GET api/values
         [HttpGet]
         public APIResult Get()
         {
@@ -21,8 +20,7 @@ namespace FundayChallenge.Controllers
 
             return result;
         }
-
-        // GET api/values/5
+        
         [HttpGet("{id}")]
         public APIResult Get(int id)
         {
@@ -31,8 +29,7 @@ namespace FundayChallenge.Controllers
 
             return result;
         }
-
-        // POST api/values
+        
         [HttpPost]
         public int Post([FromBody]Pokemon value)
         {
