@@ -16,7 +16,7 @@ namespace FundayChallenge.Controllers
             Pokemon[] pokemons = new Pokemon[] {
                 new Pokemon{ Id = 0, Name = "Growlithe", Evolution = 0, Types = new List<string>{ "Fire" }, IsLegendary = false},
                 new Pokemon{ Id = 0, Name = "Arcanine", Evolution = 1, Types = new List<string>{ "Fire" }, IsLegendary = false} };
-            APIResult result = new APIResult(pokemons);
+            APIResult result = new APIMultiResult(pokemons);
 
             return result;
         }
@@ -25,7 +25,7 @@ namespace FundayChallenge.Controllers
         public APIResult Get(int id)
         {
             Pokemon pokemon = new Pokemon { Id = 0, Name = "Growlithe", Evolution = 0, Types = new List<string> { "Fire" }, IsLegendary = false };
-            APIResult result = new APIResult(pokemon);
+            APIResult result = new APISingleResult(pokemon);
 
             return result;
         }

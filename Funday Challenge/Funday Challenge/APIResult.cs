@@ -5,24 +5,22 @@ using System.Threading.Tasks;
 
 namespace FundayChallenge
 {
-    public class APIResult
+    public abstract class APIResult
     {
         public bool Success { get; set; }
         public string ErrorMessage { get; set; }
-        public object Data { get; set; }
+		public abstract object DataAsObject { get; }
 
-        public APIResult(object data)
+        public APIResult()
         {
             Success = true;
             ErrorMessage = "";
-            Data = data;
         }
 
         public APIResult(string errorMessage)
         {
             Success = false;
             ErrorMessage = errorMessage;
-            Data = null;
         }
     }
 }

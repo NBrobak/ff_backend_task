@@ -1,0 +1,11 @@
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\bin\Debug\netcoreapp1.1\FundayChallenge.deps.json
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\bin\Debug\netcoreapp1.1\FundayChallenge.runtimeconfig.json
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\bin\Debug\netcoreapp1.1\FundayChallenge.runtimeconfig.dev.json
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\bin\Debug\netcoreapp1.1\FundayChallenge.dll
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\bin\Debug\netcoreapp1.1\FundayChallenge.pdb
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\obj\Debug\netcoreapp1.1\FundayChallenge.csprojAssemblyReference.cache
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\obj\Debug\netcoreapp1.1\FundayChallenge.csproj.CoreCompileInputs.cache
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\obj\Debug\netcoreapp1.1\FundayChallenge.AssemblyInfoInputs.cache
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\obj\Debug\netcoreapp1.1\FundayChallenge.AssemblyInfo.cs
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\obj\Debug\netcoreapp1.1\FundayChallenge.dll
+D:\GitRepos\ff_backend_task\Funday Challenge\Funday Challenge\obj\Debug\netcoreapp1.1\FundayChallenge.pdb
