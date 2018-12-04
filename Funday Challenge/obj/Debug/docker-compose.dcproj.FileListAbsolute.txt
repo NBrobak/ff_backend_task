@@ -1,1 +1,0 @@
-D:\GitRepos\ff_backend_task\Funday Challenge\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
